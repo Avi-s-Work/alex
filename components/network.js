@@ -4,7 +4,7 @@ export default function Network() {
       <section className="border border-red-500 flex items-center justify-center relative pt-32">
         <div
           style={{ width: "790px", height: "365px" }}
-          className="bg-gray-100 "
+          className="bg-gray-50 "
         ></div>
         <div className="w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 border border-red-500 flex items-center justify-between absolute">
           <div style={{ width: "526px" }} className="border border-red-500">
