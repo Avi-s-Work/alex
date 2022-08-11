@@ -1,14 +1,17 @@
 export default function Global() {
   return (
     <>
-      <section className="flex items-center justify-center relative pt-32">
+      <section className="border border-red-500 flex items-center justify-center relative pt-32">
         <div
           style={{ width: "790px", height: "365px" }}
           className="bg-gray-100 "
         ></div>
-        <div className="xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 border border-red-500 flex items-center justify-between gap-28 absolute">
+        <div className="w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 border border-red-500 flex items-center justify-between absolute">
           <div style={{ width: "526px" }} className="border border-red-500">
-            <h1 className="font-noticia text-5xl">
+            <h1
+              style={{ lineHeight: "63px" }}
+              className="font-noticia text-5xl"
+            >
               A Global network of Talent That changeing the way Of creative
             </h1>
           </div>
