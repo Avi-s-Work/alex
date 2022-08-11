@@ -29,7 +29,7 @@ export default function Navbar() {
         }`}
       >
         {/* Logo */}
-        <div className="flex items-center">
+        <div className="flex items-center border border-red-500">
           <Link href="/">
             <div className="flex items-center cursor-pointer">
               <Image
