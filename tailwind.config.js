@@ -15,6 +15,10 @@ module.exports = {
 
       xl: "1920px",
     },
+    fontFamily: {
+      sans: ["Roboto", "sans-serif"],
+      noticia: ['"Noticia Text"', "serif"],
+    },
   },
   plugins: [],
 };
