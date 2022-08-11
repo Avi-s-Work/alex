@@ -1,4 +1,4 @@
-export default function Global() {
+export default function Network() {
   return (
     <>
       <section className="border border-red-500 flex items-center justify-center relative pt-32">
@@ -12,7 +12,7 @@ export default function Global() {
               style={{ lineHeight: "63px" }}
               className="font-noticia text-5xl"
             >
-              A Global network of Talent That changeing the way Of creative
+              A Global Network Of Talent That Changeing The Way Of Creative
             </h1>
           </div>
           <div

@@ -1,13 +1,15 @@
 import Hero from "../components/hero";
-import Global from "../components/global";
+import Network from "../components/network";
 import Dummy from "../components/dummy";
+import Services from "../components/services";
 
 export default function Fullpage() {
   return (
     <>
       <Hero />
-      <Global />
+      <Network />
       <Dummy />
+      <Services />
     </>
   );
 }
