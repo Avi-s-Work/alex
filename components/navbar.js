@@ -23,9 +23,9 @@ export default function Navbar() {
 
   return (
     <>
-      <div
-        className={`xl:h-28 h-20 fixed flex items-center xl:px-52 lg:px-20 md:px-20 sm:px-10 px-10 justify-between top-0 z-30 w-full bg-white border-b border-b-gray-100 ${
-          isScrolled && "shadow-lg"
+      <header
+        className={`xl:h-28 h-20 fixed flex items-center xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 justify-between top-0 z-30 w-full bg-white border-b border-b-gray-100 ${
+          isScrolled && "shadow-sm"
         }`}
       >
         {/* Logo */}
@@ -48,8 +48,8 @@ export default function Navbar() {
             </Link>
           </div>
         </div>
-        {/* Pre Order  */}
-        <div className="flex items-center">
+        {/* Navbar  */}
+        <nav className="flex items-center">
           <Link href="/">
             <span className="text-sm cursor-pointer mr-14 text-black hover:text-gray-500">
               Home
@@ -79,8 +79,8 @@ export default function Navbar() {
               Blog
             </span>
           </Link>
-        </div>
-      </div>
+        </nav>
+      </header>
     </>
   );
 }
