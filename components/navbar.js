@@ -25,43 +25,61 @@ export default function Navbar() {
     <>
       <div
         style={{ height: "115px" }}
-        className={`fixed top-0 z-30 w-full bg-white border-b ${
+        className={`fixed flex items-center justify-between top-0 z-30 w-full bg-white border-b ${
           isScrolled && "shadow-lg"
         }`}
       >
-        <div className="flex items-center justify-between mx-auto">
-          {/* Logo */}
-          <div className="flex items-center">
-            <Link href="/">
-              <div className="flex items-center cursor-pointer">
-                <Image
-                  src="/images/email.png"
-                  alt="Noze"
-                  width="50"
-                  height="50"
-                />
-              </div>
-            </Link>
-            <div>
-              <Link href="/">
-                <span className="text-sm cursor-pointer mr-8 text-gray-400 hover:text-gray-500">
-                  Overview
-                </span>
-              </Link>
-
-              <Link href="/">
-                <span className="text-sm cursor-pointer mr-8 text-gray-400 hover:text-gray-500">
-                  Specs
-                </span>
-              </Link>
-
-              <Link href="/">
-                <span className="text-sm cursor-pointer mr-8 text-gray-400 hover:text-gray-500">
-                  FAQs
-                </span>
-              </Link>
+        {/* Logo */}
+        <div className="flex items-center">
+          <Link href="/">
+            <div className="flex items-center cursor-pointer">
+              <Image
+                src="/images/email.png"
+                alt="Noze"
+                width="50"
+                height="50"
+              />
             </div>
+          </Link>
+          <div>
+            <Link href="/">
+              <span className="ml-2 text-sm cursor-pointer mr-8 text-gray-400 hover:text-gray-500">
+                helloalex.developer
+              </span>
+            </Link>
           </div>
+        </div>
+        {/* Pre Order  */}
+        <div className="flex items-center">
+          <Link href="/">
+            <span className="text-sm cursor-pointer mr-8 text-gray-400 hover:text-gray-500">
+              Home
+            </span>
+          </Link>
+
+          <Link href="/">
+            <span className="text-sm cursor-pointer mr-8 text-gray-400 hover:text-gray-500">
+              About
+            </span>
+          </Link>
+
+          <Link href="/">
+            <span className="text-sm cursor-pointer mr-8 text-gray-400 hover:text-gray-500">
+              Contact
+            </span>
+          </Link>
+
+          <Link href="/">
+            <span className="text-sm cursor-pointer mr-8 text-gray-400 hover:text-gray-500">
+              Porfolio
+            </span>
+          </Link>
+
+          <Link href="/">
+            <span className="text-sm cursor-pointer text-gray-400 hover:text-gray-500">
+              Blog
+            </span>
+          </Link>
         </div>
       </div>
     </>
