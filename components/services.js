@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function services() {
   return (
     <>
-      <section className="flex flex-col items-center py-28">
+      <section className="flex flex-col items-center pt-28">
         {/* Heading  */}
         <div className="grid grid-rows-2">
           <div>
@@ -40,7 +40,7 @@ export default function services() {
             <h1 className="pt-12 text-2xl font-noticia text-center">
               Research And Design
             </h1>
-            <p className="pt-5 text-base text-center">
+            <p className="pt-5 text-gray-400 text-base text-center">
               Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est
               sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis
               suada vitae, ullamchper nisl eget gravda.
@@ -74,7 +74,7 @@ export default function services() {
             <h1 className="text-2xl font-noticia text-center">
               User Interface Design
             </h1>
-            <p className="pt-5 text-base text-center">
+            <p className="pt-5 text-gray-400 text-base text-center">
               Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est
               sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis
               suada vitae, ullamchper nisl eget gravda.
@@ -94,7 +94,7 @@ export default function services() {
             </Link>
           </div>
           {/* Single Card */}
-          <div className="bg-white rounded shadow-lg flex flex-col items-center pb-14 px-4">
+          <div className="border border-red-500 bg-white rounded shadow-lg flex flex-col items-center pb-14 px-4">
             <div className="flex items-center justify-end">
               <div className="pt-9">
                 <Image
@@ -108,7 +108,7 @@ export default function services() {
             <h1 className="pt-4 text-2xl font-noticia text-center">
               User Experience Design
             </h1>
-            <p className="pt-5 text-base text-center">
+            <p className="pt-5 text-gray-400 text-base text-center">
               Lorem ipsum dolor amet, consesd ctetur adipiscing elit. Malesa est
               sagittis et nuasslla ntis enim vel suspend wergisse eu masgnis
               suada vitae, ullamchper nisl eget gravda.

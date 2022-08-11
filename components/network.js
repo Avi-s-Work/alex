@@ -19,7 +19,7 @@ export default function Network() {
             style={{ width: "538px" }}
             className="flex justify-end border border-red-500"
           >
-            <p className="text-lg">
+            <p className="text-lg text-gray-400">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Males{" "}
               <br /> a est sagittis et nulla leo ut nulla aliquam. Nisi,
               fermentum venentis enim vel suspend wergisse eu magnis libero
