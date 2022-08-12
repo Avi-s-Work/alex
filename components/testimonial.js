@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Testimonial() {
   return (
@@ -24,19 +25,22 @@ export default function Testimonial() {
           className="bg-gray-50 relative border border-red-500"
         ></div>
         {/* Cards */}
-        <div className="absolute grid grid-cols-2 items-center w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10">
+        <div className="absolute flex items-base justify-center w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10">
           {/* Single Card */}
-          <div className="border border-red-500 flex items-base ml-10">
-            <div>
+          <div className="border border-red-500 flex">
+            <div className="mr-4">
               <Image
                 src="/images/left_quote.png"
                 alt="left_quote"
-                width="460"
-                height="460"
+                width="60"
+                height="60"
               />
             </div>
-            <div className="flex flex-col">
-              <p className="text-lg text-gray-400">
+            <div className="flex flex-col mt-14 mr-10">
+              <p
+                style={{ width: "538px" }}
+                className="border border-red-500 text-2xl text-gray-400"
+              >
                 Lorem ipsum dolor sit amet, conse ctetur addipis cing elit.
                 Malesa est sagittis et nulla leo ut nulsla aliquam. Nisi,
                 fermentum venentis enim vel sussp end wergisse eu magnis libero
@@ -44,10 +48,50 @@ export default function Testimonial() {
                 purus cras. Et laoreet sit feugiat vehicula dufzi, eme tum
                 venentis enim vel suspend wergisse eu maAgnis .
               </p>
+              {/* Profile  */}
+              <div className="flex items-center gap-x-4 mt-8">
+                <div>
+                  <Image
+                    src="/images/lady_DP.png"
+                    alt="lady_DP"
+                    width="70"
+                    height="70"
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <strong className="text-xl">Ronald Richards</strong>
+                  <span className="text-base text-gray-400">
+                    CEO, Themeexpart Limited
+                  </span>
+                </div>
+              </div>
+              {/* Next / Prev */}
+              <div className="flex items-center gap-x-5 mt-10">
+                <div className="cursor-pointer">
+                  <Link href="/">
+                    <Image
+                      src="/images/left_arrow.png"
+                      alt="left_arrow"
+                      width="50"
+                      height="50"
+                    />
+                  </Link>
+                </div>
+                <div className="cursor-pointer">
+                  <Link href="/">
+                    <Image
+                      src="/images/right_arrow.png"
+                      alt="right_arrow"
+                      width="50"
+                      height="50"
+                    />
+                  </Link>
+                </div>
+              </div>
             </div>
           </div>
           {/* Single Card */}
-          <div className="border border-red-500 flex items-center justify-end mr-10">
+          <div className="border border-red-500 flex items-center justify-end">
             <Image src="/images/lady.png" alt="lady" width="445" height="525" />
           </div>
         </div>
