@@ -3,6 +3,7 @@ import Network from "../components/network";
 import Services from "../components/services";
 import Experience from "../components/experience";
 import Testimonial from "../components/testimonial";
+import Projects from "../components/projects";
 
 export default function Fullpage() {
   return (
@@ -12,6 +13,7 @@ export default function Fullpage() {
       <Services />
       <Experience />
       <Testimonial />
+      <Projects />
     </>
   );
 }
