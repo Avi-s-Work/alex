@@ -4,16 +4,19 @@ export default function Experience() {
   return (
     <>
       <section className="w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-2 items-center py-40">
-        {/* Left Part */}
-        <div className="border border-red-500">
+        {/* Left Part //////////////////////////////////////////////// */}
+        <div className="border border-red-500 mr-20">
           {/* Heading  */}
           <div className="flex flex-col">
             <div>
-              <h1 className="text-5xl font-noticia">
+              <h1
+                style={{ lineHeight: "63px" }}
+                className="text-5xl font-noticia"
+              >
                 I Have Brunch Of <br /> Huge Experience.....
               </h1>
             </div>
-            <div className="flex items-center justify-end mt-4 mr-16 pr-2">
+            <div className="flex items-center justify-end mt-2 mr-28">
               <Image
                 src="/images/Heading_Lines/experience_line.png"
                 alt="experience_line"
@@ -46,10 +49,10 @@ export default function Experience() {
             </div>
           </div>
         </div>
-        {/* Right Part */}
-        <div className="border border-red-500 grid grid-rows-3">
+        {/* Right Part //////////////////////////////////////////////// */}
+        <div className="border border-red-500 grid grid-rows-3 gap-y-11 ml-6">
           {/* Companies  */}
-          <div className="pb-11">
+          <div>
             <h1 className="text-2xl font-noticia text-gray-600">
               Senior Product Designer
             </h1>
@@ -65,9 +68,9 @@ export default function Experience() {
             </div>
           </div>
           {/* Companies  */}
-          <div className="pb-11">
+          <div>
             <h1 className="text-2xl font-noticia text-gray-600">
-              Lead User experience Designer
+              Lead User Experience Designer
             </h1>
             <h1 className="text-4xl font-noticia mt-2 mb-6">
               Balkan Brothers Ltd.
@@ -83,7 +86,7 @@ export default function Experience() {
           {/* Companies  */}
           <div>
             <h1 className="text-2xl font-noticia text-gray-600">
-              user Experience Designer
+              User Experience Designer
             </h1>
             <h1 className="text-4xl font-noticia mt-2 mb-6">
               Grabstar Design House
