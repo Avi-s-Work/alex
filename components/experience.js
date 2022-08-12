@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Experience() {
   return (
     <>
-      <section className="w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-2 items-center py-40">
+      <section className="w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-2 items-center pt-40">
         {/* Left Part //////////////////////////////////////////////// */}
         <div className="border border-red-500 mr-20">
           {/* Heading  */}
