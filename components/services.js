@@ -5,13 +5,13 @@ export default function services() {
     <>
       <section className="flex flex-col items-center pt-28">
         {/* Heading  */}
-        <div className="grid grid-rows-2">
+        <div className="flex flex-col">
           <div>
             <h1 className="text-5xl font-noticia text-center">
               Providing Services
             </h1>
           </div>
-          <div className="flex items-center justify-end mb-4">
+          <div className="flex items-center justify-end mt-3">
             <Image
               src="/images/Heading_Lines/services_line.png"
               alt="services_line"
@@ -22,8 +22,8 @@ export default function services() {
         </div>
         {/* Gray Portion  */}
         <div
-          style={{ width: "1370px", height: "265px" }}
-          className="bg-gray-50 mt-60 relative hidden xl:flex"
+          style={{ width: "70%", height: "265px" }}
+          className="bg-gray-50 relative mt-60 border border-red-500"
         ></div>
         {/* Cards */}
         <div className="absolute xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-3 gap-x-8 pt-32">
