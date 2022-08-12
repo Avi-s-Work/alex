@@ -21,7 +21,7 @@ export default function Projects() {
           />
         </div>
       </div>
-      <section className="pb-40 w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-2 items-center gap-y-6 gap-x-8">
+      <section className="w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-2 items-center gap-y-6 gap-x-8">
         <div className="relative">
           <Image
             src="/images/Projects/Drinking.png"

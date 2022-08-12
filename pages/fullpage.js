@@ -4,6 +4,7 @@ import Services from "../components/services";
 import Experience from "../components/experience";
 import Testimonial from "../components/testimonial";
 import Projects from "../components/projects";
+import Footer from "../components/footer";
 
 export default function Fullpage() {
   return (
@@ -14,6 +15,7 @@ export default function Fullpage() {
       <Experience />
       <Testimonial />
       <Projects />
+      <Footer />
     </>
   );
 }
