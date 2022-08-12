@@ -18,16 +18,16 @@ export default function Testimonial() {
           />
         </div>
       </div>
-      <section className="flex flex-col items-center justify-center pb-40">
+      <section className="flex flex-col items-center justify-center">
         {/* Gray Portion  */}
         <div
           style={{ width: "66%", height: "685px" }}
-          className="bg-gray-50 relative border border-red-500"
+          className="bg-gray-50 relative "
         ></div>
         {/* Cards */}
         <div className="absolute flex items-base justify-center w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10">
           {/* Single Card */}
-          <div className="border border-red-500 flex">
+          <div className=" flex">
             <div className="mr-4">
               <Image
                 src="/images/left_quote.png"
@@ -37,10 +37,7 @@ export default function Testimonial() {
               />
             </div>
             <div className="flex flex-col mt-14 mr-10">
-              <p
-                style={{ width: "538px" }}
-                className="border border-red-500 text-2xl text-gray-400"
-              >
+              <p style={{ width: "538px" }} className=" text-2xl text-gray-400">
                 Lorem ipsum dolor sit amet, conse ctetur addipis cing elit.
                 Malesa est sagittis et nulla leo ut nulsla aliquam. Nisi,
                 fermentum venentis enim vel sussp end wergisse eu magnis libero
@@ -91,7 +88,7 @@ export default function Testimonial() {
             </div>
           </div>
           {/* Single Card */}
-          <div className="border border-red-500 flex items-center justify-end">
+          <div className=" flex items-center justify-end">
             <Image src="/images/lady.png" alt="lady" width="445" height="525" />
           </div>
         </div>

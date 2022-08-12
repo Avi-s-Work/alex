@@ -5,7 +5,7 @@ export default function Experience() {
     <>
       <section className="w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-2 items-center pt-40">
         {/* Left Part //////////////////////////////////////////////// */}
-        <div className="border border-red-500 mr-20">
+        <div className=" mr-20">
           {/* Heading  */}
           <div className="flex flex-col">
             <div>
@@ -42,7 +42,7 @@ export default function Experience() {
               </p>
             </div>
             <div className="bg-gray-50 px-8 py-6">
-              <h1 className="text-5xl font-noticia text-red-500">12 years</h1>
+              <h1 className="text-5xl font-noticia text-red-500">12 Years</h1>
               <p className="mt-3 text-base text-gray-400">
                 Lorem ipsum dolor siswsst amet, codvsd nssde esd
               </p>
@@ -50,7 +50,7 @@ export default function Experience() {
           </div>
         </div>
         {/* Right Part //////////////////////////////////////////////// */}
-        <div className="border border-red-500 grid grid-rows-3 gap-y-11 ml-6">
+        <div className=" grid grid-rows-3 gap-y-11 ml-6">
           {/* Companies  */}
           <div>
             <h1 className="text-2xl font-noticia text-gray-600">

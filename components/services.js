@@ -23,12 +23,12 @@ export default function services() {
         {/* Gray Portion  */}
         <div
           style={{ width: "70%", height: "265px" }}
-          className="bg-gray-50 relative mt-60 border border-red-500"
+          className="bg-gray-50 relative mt-60 "
         ></div>
         {/* Cards */}
         <div className="absolute xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-3 gap-x-8 pt-32">
           {/* Single Card */}
-          <div className="bg-white rounded border border-red-500 shadow-lg flex flex-col items-center py-14 px-4">
+          <div className="bg-white rounded  shadow-lg flex flex-col items-center py-14 px-4">
             <div className="flex items-center justify-end">
               <Image
                 src="/images/cloud.png"
@@ -94,7 +94,7 @@ export default function services() {
             </Link>
           </div>
           {/* Single Card */}
-          <div className="border border-red-500 bg-white rounded shadow-lg flex flex-col items-center pb-14 px-4">
+          <div className=" bg-white rounded shadow-lg flex flex-col items-center pb-14 px-4">
             <div className="flex items-center justify-end">
               <div className="pt-9">
                 <Image
