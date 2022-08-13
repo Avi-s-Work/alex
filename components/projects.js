@@ -1,4 +1,6 @@
 import Image from "next/image";
+import Link from "next/link";
+
 export default function Projects() {
   return (
     <>
@@ -22,66 +24,78 @@ export default function Projects() {
         </div>
       </div>
       <section className="w-full xl:px-96 lg:px-20 md:px-20 sm:px-10 px-10 grid grid-cols-2 items-center gap-y-6 gap-x-8">
-        <div className="relative">
-          <Image
-            src="/images/Projects/Drinking.png"
-            alt="Drinking"
-            width="570"
-            height="571"
-          />
-          <div className="absolute bottom-9 left-9">
-            <h1 className="text-2xl text-white font-noticia">
-              Drinking from the sea of knowledge
-            </h1>
-            <span className="text-lg text-white">
-              Digital / Exhibition / VR / AR
-            </span>
+        {/* Single Project */}
+        <Link href="/">
+          <div className="relative cursor-pointer">
+            <Image
+              src="/images/Projects/Drinking.png"
+              alt="Drinking"
+              width="570"
+              height="571"
+            />
+            <div className="absolute bottom-9 left-9">
+              <h1 className="text-2xl text-white font-noticia">
+                Drinking from the sea of knowledge
+              </h1>
+              <span className="text-lg text-white">
+                Digital / Exhibition / VR / AR
+              </span>
+            </div>
           </div>
-        </div>
-        <div className="relative">
-          <Image
-            src="/images/Projects/Feast.png"
-            alt="Feast"
-            width="570"
-            height="571"
-          />
-          <div className="absolute bottom-9 left-9">
-            <h1 className="text-2xl text-white font-noticia">
-              A Feast Of A Time-Honored History
-            </h1>
-            <span className="text-lg text-white">Digital / Events</span>
+        </Link>
+        {/* Single Project */}
+        <Link href="/">
+          <div className="relative cursor-pointer">
+            <Image
+              src="/images/Projects/Feast.png"
+              alt="Feast"
+              width="570"
+              height="571"
+            />
+            <div className="absolute bottom-9 left-9">
+              <h1 className="text-2xl text-white font-noticia">
+                A Feast Of A Time-Honored History
+              </h1>
+              <span className="text-lg text-white">Digital / Events</span>
+            </div>
           </div>
-        </div>
-        <div className="relative">
-          <Image
-            src="/images/Projects/GooglePlay.png"
-            alt="GooglePlay"
-            width="570"
-            height="571"
-          />
-          <div className="absolute bottom-9 left-9">
-            <h1 className="text-2xl text-white font-noticia">
-              Google Play ACG Interactive Game
-            </h1>
-            <span className="text-lg text-white">Exhibition / VR / AR</span>
+        </Link>
+        {/* Single Project */}
+        <Link href="/">
+          <div className="relative cursor-pointer">
+            <Image
+              src="/images/Projects/GooglePlay.png"
+              alt="GooglePlay"
+              width="570"
+              height="571"
+            />
+            <div className="absolute bottom-9 left-9">
+              <h1 className="text-2xl text-white font-noticia">
+                Google Play ACG Interactive Game
+              </h1>
+              <span className="text-lg text-white">Exhibition / VR / AR</span>
+            </div>
           </div>
-        </div>
-        <div className="relative">
-          <Image
-            src="/images/Projects/Monopoly.png"
-            alt="Monopoly"
-            width="570"
-            height="571"
-          />
-          <div className="absolute bottom-9 left-9">
-            <h1 className="text-2xl text-white font-noticia">
-              Monopoly Dreams Hong Kong
-            </h1>
-            <span className="text-lg text-white">
-              Digital / Exhibition / Installations
-            </span>
+        </Link>
+        {/* Single Project */}
+        <Link href="/">
+          <div className="relative cursor-pointer">
+            <Image
+              src="/images/Projects/Monopoly.png"
+              alt="Monopoly"
+              width="570"
+              height="571"
+            />
+            <div className="absolute bottom-9 left-9">
+              <h1 className="text-2xl text-white font-noticia">
+                Monopoly Dreams Hong Kong
+              </h1>
+              <span className="text-lg text-white">
+                Digital / Exhibition / Installations
+              </span>
+            </div>
           </div>
-        </div>
+        </Link>
       </section>
     </>
   );
