@@ -3,7 +3,7 @@ import Image from "next/image";
 export default function Hero() {
   return (
     <>
-      <div className="xl:pt-52 pt-36 flex flex-col items-center">
+      <div className="xl:pt-52 pt-36 flex flex-col items-center relative">
         <div>
           <Image
             src="/images/profile_circle.svg"
@@ -84,6 +84,17 @@ export default function Hero() {
             />
           </div>
         </section>
+      </div>
+      <div>
+        <div className="absolute top-10">
+          <Image
+            className="opacity-50"
+            src="/images/Banner_Circles/Circle_S.png"
+            alt="Circle_S"
+            width="94"
+            height="33"
+          />
+        </div>
       </div>
     </>
   );
