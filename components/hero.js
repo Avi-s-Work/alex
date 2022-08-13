@@ -85,14 +85,69 @@ export default function Hero() {
           </div>
         </section>
       </div>
+      {/* Banner Circles  */}
       <div>
-        <div className="absolute top-10">
+        <div className="absolute top-[282px] left-[388px]">
           <Image
-            className="opacity-50"
+            className="opacity-90"
+            src="/images/Banner_Circles/Circle_M.png"
+            alt="Circle_S"
+            width="75"
+            height="75"
+          />
+        </div>
+        <div className="absolute top-[282px] right-[560px]">
+          <Image
+            className="opacity-90"
+            src="/images/Banner_Circles/Circle_XS.png"
+            alt="Circle_S"
+            width="30"
+            height="30"
+          />
+        </div>
+        <div className="absolute top-[622px] left-[475px]">
+          <Image
+            className="opacity-90"
             src="/images/Banner_Circles/Circle_S.png"
             alt="Circle_S"
-            width="94"
-            height="33"
+            width="38"
+            height="38"
+          />
+        </div>
+        <div className="absolute top-[545px] right-[390px]">
+          <Image
+            className="opacity-90"
+            src="/images/Banner_Circles/Circle_L.png"
+            alt="Circle_S"
+            width="135"
+            height="135"
+          />
+        </div>
+        <div className="absolute top-[504px] left-[160px]">
+          <Image
+            className="opacity-90"
+            src="/images/Banner_Circles/half_circle_L.png"
+            alt="half_circle_L"
+            width="189"
+            height="377"
+          />
+        </div>
+        <div className="absolute top-[146px] right-[160px]">
+          <Image
+            className="opacity-90"
+            src="/images/Banner_Circles/half_circle_M.png"
+            alt="half_circle_M"
+            width="139"
+            height="279"
+          />
+        </div>
+        <div className="absolute top-[839px] right-[160px]">
+          <Image
+            className="opacity-90"
+            src="/images/Banner_Circles/half_circle_S.png"
+            alt="half_circle_S"
+            width="31"
+            height="62"
           />
         </div>
       </div>
